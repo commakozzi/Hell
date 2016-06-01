@@ -5,7 +5,9 @@ public class Main {
         UserInteraction ui = new UserInteraction();
 
         // Get userName and start game:
-        ui.getName();
+        //ui.getName();
+
+        int currentAge;
 
     }
 }
