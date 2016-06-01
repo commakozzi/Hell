@@ -1,21 +1,12 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
         // Start Utilities:
-        Scanner scanner = new Scanner(System.in);
+        UserInteraction ui = new UserInteraction();
 
         // Get userName and start game:
+        ui.getName();
 
-    }
-
-    public void typeText(final String str) {
-        new Thread() {
-            public void run() {
-                for(int i = 0; i < str.length(); i++) {
-                }
-            }
-        };
     }
 }
+
